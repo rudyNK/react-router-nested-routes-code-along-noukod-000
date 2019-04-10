@@ -1,5 +1,5 @@
 import React from 'react';
- 
+
 const MovieShow = ({match, movies}) => {
   return (
     <div>
@@ -7,5 +7,5 @@ const MovieShow = ({match, movies}) => {
     </div>
   );
 }
- 
+
 export default MovieShow;
