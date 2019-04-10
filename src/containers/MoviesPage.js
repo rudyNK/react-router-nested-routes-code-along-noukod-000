@@ -2,7 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import MoviesList from '../components/MoviesList';
 import MovieShow from './MovieShow';
- 
+
 const MoviesPage = ({ match, movies }) => (
   <div>
     <MoviesList movies={movies} />
@@ -12,5 +12,5 @@ const MoviesPage = ({ match, movies }) => (
     <Route path={`${match.url}/:movieId`} component={MovieShow}/>
   </div>
 )
- 
+
 export default MoviesPage
